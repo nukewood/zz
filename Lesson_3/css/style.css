@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+	font-size: 40px;
+	font-style: oblique;
+	font-weight: 1000;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+.image {
+	height: 100px;
+	width: 100%;
+	background-color: darkorange;
+}
+html,
+body {
+	height: 100%;
+}
+li {
+	text-align: center;
+	font-size: 60px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	line-height: 100px;
+}
+.text1 {
+	word-spacing: 10px;
+	text-indent: 50px;
+	color: #00000077;
+	font-size: 40px;
+	text-shadow: 5px 1px 10px #581818;
+	background-color: rgb(206, 202, 202);
+	padding: 50px 100px 50px 100px;
+	max-width: 2000px;
+	min-width: 300px;
+	margin: 0px auto;
+	overflow: auto;
+}
+.text2 {
+	word-spacing: 10px;
+	text-indent: 50px;
+	color: #96ad2e77;
+	font-size: 40px;
+	text-shadow: 5px 1px 10px #a9a9a9;
+	background-color: #5f1d21;
+	padding: 50px 50px 50px 50px;
+	margin: 10px 0px 0px 0px;
+	max-height: 500px;
+	overflow: auto;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	color: #4b52bb;
+	font-family: "Rubik Beastly", cursive;
+	background-color: darkturquoise;
+	word-spacing: 100px;
+	letter-spacing: 30px;
+}
+footer {
+	font-size: 100px;
+	text-align: center;
+	background-color: darkorange;
+	margin: 10px 0px 0px 0px;
+}
+.wrapper {
+	min-height: 100%;
+}
